@@ -36,7 +36,7 @@ try {
 }
 
 //CONEXION DE BD
-var Connection = require('tedious').Connection;  
+/*var Connection = require('tedious').Connection;  
     var config = {  
         userName: 'yourusername',  
         password: 'yourpassword',  
@@ -48,7 +48,7 @@ var Connection = require('tedious').Connection;
     connection.on('connect', function(err) {  
     // If no error, then good to proceed.  
         console.log("Connected");  
-    });  
+    });  */
 
 // For local development configuration as defined in .bot file
 const DEV_ENVIRONMENT = 'development';
