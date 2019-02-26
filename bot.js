@@ -213,13 +213,6 @@ class BasicBot {
         return false; // this is not an interruption
     }
     
-     const { ActivityTypes, MessageFactory, TurnContext } = require('botbuilder');
-
-    async sendSuggestedActions(turnContext) {
-    var reply = MessageFactory.suggestedActions(['Red', 'Yellow', 'Blue'], 'What is the best color?');
-    await turnContext.sendActivity(reply);
-
-    }
 
     /**
      * Helper function to update user profile with entities returned by LUIS.
