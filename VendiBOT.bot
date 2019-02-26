@@ -1,0 +1,61 @@
+{
+  "name": "VendiBOT",
+  "padlock": "ZGZ1fugYAr226Q2MMUqLwg==!6tvwalzVK0REKqeu8kDHUZ5cof+mAPoRHNNuspXwZ4MQX5uq+c1cyfKy7Nq/bqzq",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "fd5f2b74-ef94-4a39-ae25-c6f2b8321289",
+      "subscriptionId": "e1fcae10-0331-4adb-885e-6f9c4bb022de",
+      "resourceGroup": "Resource_TTI1",
+      "serviceName": "VendiBOT",
+      "type": "abs",
+      "name": "VendiBOT",
+      "id": "1"
+    },
+    {
+      "connectionString": "CF7S1ubTcd17aN36ItbM/g==!ViCd88XBlmkYgyhBHhwIlWdfkuhcloegnA4eVxaxKTfWv2vHLHk7WJo8xRLhfS1ig/wdzzOAkRhHVYnh4FfvsGuK3x7tN04nB5y4rEgG1trxRAfRLSvGXnfiR19p/TRBKkdJOLRJltInwXf3KPjlYz3yMGbtNy8fA5LiWFPo0B6H9op6tQ5McpwDRNeSCY0N2s12n1b4pzEoxmfKRFIbtA==",
+      "tenantId": "fd5f2b74-ef94-4a39-ae25-c6f2b8321289",
+      "subscriptionId": "e1fcae10-0331-4adb-885e-6f9c4bb022de",
+      "resourceGroup": "Resource_TTI1",
+      "serviceName": "vendibot94df",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "d148bc5c-5d8a-4082-b8a6-7382420c665e",
+      "appPassword": "wGcbvBkBXBMgIWu4jmfzWw==!p/CNQr6a/objOTC9Cw6RbUYdUgYJ56tXQLXShRYfGjw=",
+      "endpoint": "https://vendibot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "ULYpJWwvV4ucFBCAWrtgkg==!XogbgQ01kJb6zxvxoEeP83E9w4SGaFJUne5NP2d6lgE4rQBO2HCqD/virV1vq3BU",
+      "applicationId": "9faa6ed7-82e6-4a60-8c09-ca894dbbfe61",
+      "apiKeys": {},
+      "tenantId": "fd5f2b74-ef94-4a39-ae25-c6f2b8321289",
+      "subscriptionId": "e1fcae10-0331-4adb-885e-6f9c4bb022de",
+      "resourceGroup": "Resource_TTI1",
+      "serviceName": "VendiBOT7u7qp2",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "db8dfe38-3ebf-490c-b229-cc37d4affb07",
+      "authoringKey": "pcr+X6hkOHJ6STyOsc5JEA==!ML/gzqYAXj/z6a45ZF6czl5QfCFjiXUZs2pc7Cp4JtZchuyFVYe3qLtiT44tLTKg",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
+}
